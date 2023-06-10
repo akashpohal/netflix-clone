@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "NetflixFont";
+}
+@font-face {
+    font-family: "NetflixFont" ;
+    src: url("./fonts/NetflixSans_W_Rg.woff2");
+}
+
+.bg-color{
+    background-color: black;
+}
+
+.parent-head{
+    display: flex;
+    border: 2px solid red;
+    height: 4rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-right: 1rem;
+}
+
+.nf-logo-img{
+    width: 10rem;
+}
+
+.dropdown-loginbut{
+    display: flex;
+    align-items: center;
+}
+
+.login-button{
+    background: #e50914;
+    padding: 0.25rem 1rem;
+    color: white;
+    font-size: 14px;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0cap;
+}
